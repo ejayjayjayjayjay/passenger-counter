@@ -1,0 +1,60 @@
+/* CSS HEX */
+/* --jasper: #C35232ff;
+--black-olive: #394029ff;
+--drab-dark-brown: #50442Cff;
+--bistre: #2B2517ff;
+--white: #FEFEFEff; */
+
+@font-face {
+    font-family: celinda;
+    src: url(/celinda/Celinda-Regular.otf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/jeepney2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: celinda;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main-container {
+    border: 5px solid #394029ff;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    background-image: linear-gradient(gray, #C35232ff);
+}
+
+h1 {
+    color: #FFFF;
+    text-shadow: 2px 0 0 #50442Cff;
+}
+
+#save-el {
+    color: #FFFF;
+    text-shadow: 2px 0 0 #50442Cff;
+}
+
+#increment-btn {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(171, 60, 60);
+    color: #FEFEFEff;
+    font-weight: 900;
+    padding: 10px 20px 10px 20px;
+}
+
+#save-btn {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(70, 175, 70);
+    color: #FEFEFEff;
+    font-weight: 900;
+    padding: 10px 20px 10px 20px;
+}
